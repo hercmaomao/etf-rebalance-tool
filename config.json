@@ -1,0 +1,21 @@
+{
+    "app_settings": {
+        "default_threshold": 2.5,
+        "drift_divisor": 2.0
+    },
+    "status_labels": {
+        "warning": "🚨 需调仓",
+        "normal": "✅ 正常"
+    },
+    "columns": {
+        "account_id": "盈立号",
+        "ticker": "证券代码",
+        "market_value": "证券市值"
+    },
+    "target_weights": {
+        "SPY": 0.09, "VTI": 0.10, "ITOT": 0.00, 
+        "RSP": 0.08, "IWM": 0.03, "VEA": 0.05, 
+        "ASHR": 0.10, "MCHI": 0.14, "AGG": 0.27, 
+        "SCHO": 0.01, "EMLC": 0.08, "PDBC": 0.05
+    }
+}
